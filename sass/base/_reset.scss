@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+textarea {
+  resize: none;
+}
+
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.body-no-scroll {
+  overflow: hidden;
+}

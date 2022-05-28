@@ -1,0 +1,29 @@
+.logo,
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  padding: 16px 0;
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+}
+
+.footer-logo {
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+}
+
+.logo-nav__text,
+.footer-logo__text {
+  color: var(--accent-color);
+}

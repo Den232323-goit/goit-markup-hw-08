@@ -1,0 +1,28 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+
+.btn-main.current-btn {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.section.hero,
+footer {
+  background-color: var(--br-hero-footer);
+}

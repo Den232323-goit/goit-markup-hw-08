@@ -1,0 +1,23 @@
+.title {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.17;
+  margin-bottom: 30px;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
+}
+
+.welcome__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: var(--primary-white-color);
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}

@@ -16,16 +16,15 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header-nav">
-      <div class="container header">
+	<div class="container header">
         <nav class="main-nav">
           <a class="logo" href=""><span class="logo-nav__text">Web</span>Studio</a>
           <ul class="header__list list">
             <li class="header__item">
-              <a class="header__link link" href="./index.html">Студия</a>
+              <a class="header__link link current" href="./index.html">Студия</a>
             </li>
             <li class="header__item">
-              <a class="header__link link current" href="./portfolio.html">Портфолио</a>
+              <a class="header__link link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="header__item">
               <a class="header__link link" href="#adress-info">Контакты</a>
@@ -62,46 +61,48 @@
               ></use>
             </svg>
           </button>
-          <div class="menu-container" data-menu>
-            <nav class="mob-nav">
-              <ul class="mob-nav__list list">
-                <li class="mob-nav__item">
-                  <a class="mob-nav__link link" href="./index.html">Студия</a>
+          <div class="menu-overlay" data-menu>
+            <div class="menu-container">
+              <nav class="mob-nav">
+                <ul class="mob-nav__list list">
+                  <li class="mob-nav__item">
+                    <a class="mob-nav__link link current-mob" href="./index.html">Студия</a>
+                  </li>
+                  <li class="mob-nav__item">
+                    <a class="mob-nav__link link" href="./portfolio.html">Портфолио</a>
+                  </li>
+                  <li class="mob-nav__item">
+                    <a class="mob-nav__link link" href="#adress-info">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <ul class="mob-tel list">
+                <li class="mob-tel__item">
+                  <a class="mob-tel__link link current-mob" href="tel:+380991111111">
+                    +38 099 111 11 11
+                  </a>
                 </li>
-                <li class="mob-nav__item">
-                  <a class="mob-nav__link link current-mob" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="mob-nav__item">
-                  <a class="mob-nav__link link" href="#adress-info">Контакты</a>
+                <li class="mob-tel__item">
+                  <a class="mob-tel__link mail link" href="mailto:info@example.com">
+                    info@example.com
+                  </a>
                 </li>
               </ul>
-            </nav>
-            <ul class="mob-tel list">
-              <li class="mob-tel__item">
-                <a class="mob-tel__link link current-mob" href="tel:+380991111111">
-                  +38 099 111 11 11
-                </a>
-              </li>
-              <li class="mob-tel__item">
-                <a class="mob-tel__link mail link" href="mailto:info@example.com">
-                  info@example.com
-                </a>
-              </li>
-            </ul>
-            <ul class="mob-soc list">
-              <li class="mob-soc__item">
-                <a class="mob-soc__link link" href="" lang="en">Instagram</a>
-              </li>
-              <li class="mob-soc__item">
-                <a class="mob-soc__link link" href="" lang="en">Twitter</a>
-              </li>
-              <li class="mob-soc__item">
-                <a class="mob-soc__link link" href="" lang="en">Facebook</a>
-              </li>
-              <li class="mob-soc__item">
-                <a class="mob-soc__link link" href="" lang="en">LinkedIn</a>
-              </li>
-            </ul>
+              <ul class="mob-soc list">
+                <li class="mob-soc__item">
+                  <a class="mob-soc__link link" href="" lang="en">Instagram</a>
+                </li>
+                <li class="mob-soc__item">
+                  <a class="mob-soc__link link" href="" lang="en">Twitter</a>
+                </li>
+                <li class="mob-soc__item">
+                  <a class="mob-soc__link link" href="" lang="en">Facebook</a>
+                </li>
+                <li class="mob-soc__item">
+                  <a class="mob-soc__link link" href="" lang="en">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

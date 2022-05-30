@@ -764,9 +764,19 @@ footer {
 
 .menu-container {
   position: relative;
-  padding: 48px 20px 48px 40px;
+  padding: 48px 40px;
+  height: 100%;
   background-color: var(--primary-white-color);
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .mob-menu {
@@ -779,26 +789,8 @@ footer {
   }
 }
 
-.mob-nav {
-  margin-bottom: 302px;
-}
-
-.mob-nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: -32px;
-}
-
-.mob-nav__item {
+.mob-nav__item:not(:last-child) {
   margin-bottom: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .mob-nav__link {
@@ -806,12 +798,6 @@ footer {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: var(--primary-text-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1092,32 +1078,23 @@ footer {
   padding-top: 0px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1199.9px) {
   .about {
     display: none;
   }
 }
 
 .about__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 3 - 30px);
   margin-left: -30px;
 }
 
-@media screen and (min-width: 768px) {
-  .about__cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
 .about__item {
-  -ms-flex-preferred-size: calc(100% / 3 - 30px);
-      flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-}
-
-.about__item:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 .about__frame {

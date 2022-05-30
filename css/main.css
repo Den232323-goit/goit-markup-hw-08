@@ -780,7 +780,7 @@ footer {
 }
 
 .mob-nav {
-  margin-bottom: 32px;
+  margin-bottom: 302px;
 }
 
 .mob-nav__list {
@@ -791,7 +791,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 302px;
+  margin-bottom: -32px;
 }
 
 .mob-nav__item {
@@ -799,7 +799,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
 }
 
 .mob-nav__link {

@@ -136,16 +136,15 @@
 }
 
 .mob-nav {
-  margin-bottom: 32px;
+  margin-bottom: 302px;
   &__list {
     display: flex;
     flex-direction: column;
-    margin-bottom: 302px;
+    margin-bottom: -32px;
   }
   &__item {
     margin-bottom: 32px;
     display: flex;
-    position: relative;
   }
   &__link {
     @include font(40px, 500, 1.17, 0.02em);
